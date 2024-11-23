@@ -1,4 +1,201 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  margin: auto;
+  background-color: #121826;
+  max-width: 1280px;
+  height: 100vh;
+}
+
+main {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 308px));
+  grid-auto-flow: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+}
+header .title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  width: 350px;
+  line-height: 1.5;
+}
+header .sub-title {
+  color: #fff;
+  font-weight: lighter;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.98rem;
+}
+
+main .card {
+  width: 310px;
+  height: 461px;
+  background-color: #212936;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  box-sizing: border-box;
+  gap: 20px;
+  border-radius: 15px;
+}
+main .card .c-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #FDEED8;
+  align-self: self-start;
+}
+main .card .c-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+main .card .c-desc {
+  font-size: 0.89rem;
+  text-align: left;
+  line-height: 1.5;
+}
+main .card .c-image {
+  border-radius: 15px;
+  background-color: #fff;
+  width: 260px;
+  height: 180px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+  }
+  header .title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    width: 350px;
+    line-height: 1.5;
+  }
+  header .sub-title {
+    color: #fff;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.98rem;
+  }
+  main .card {
+    width: 310px;
+    height: 461px;
+    background-color: #212936;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    box-sizing: border-box;
+    gap: 20px;
+    border-radius: 15px;
+  }
+  main .card .c-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #FDEED8;
+    align-self: self-start;
+  }
+  main .card .c-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  main .card .c-desc {
+    font-size: 0.89rem;
+    text-align: left;
+    line-height: 1.5;
+  }
+  main .card .c-image {
+    border-radius: 15px;
+    background-color: #fff;
+    width: 260px;
+    height: 180px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 640px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+  }
+  header .title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    width: 500px;
+    line-height: 1.5;
+  }
+  header .sub-title {
+    color: #fff;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.98rem;
+  }
+  main .card {
+    width: 310px;
+    height: 461px;
+    background-color: #212936;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    box-sizing: border-box;
+    gap: 20px;
+    border-radius: 15px;
+  }
+  main .card .c-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #FDEED8;
+    align-self: self-start;
+  }
+  main .card .c-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  main .card .c-desc {
+    font-size: 0.89rem;
+    text-align: left;
+    line-height: 1.5;
+  }
+  main .card .c-image {
+    border-radius: 15px;
+    background-color: #fff;
+    width: 260px;
+    height: 180px;
+    overflow: hidden;
+  }
 }/*# sourceMappingURL=style.css.map */
